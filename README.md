@@ -4,7 +4,7 @@ A clean, single‑page resume built with **Vue 3 + Vite** (Node 16‑compatible 
 
 ---
 
-## 🛠️ Tech Stack & Why
+## Tech Stack & Why
 
 - **Vue.js (v3.4.x)** — UI framework for componentized views (SFCs). We use `<script setup>` for concise components and reactivity for toggles (e.g., “Show more” in Projects).
 - **Vite (v4.5.x)** — Dev server with instant HMR and production bundling via Rollup. Ultra‑fast DX.
@@ -16,7 +16,7 @@ A clean, single‑page resume built with **Vue 3 + Vite** (Node 16‑compatible 
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 ```bash
 npm install
@@ -26,7 +26,7 @@ npm run build       # build production assets into dist/
 
 ---
 
-## ✏️ Customize content
+## ✏Customize content
 
 Edit `src/data/profile.js`. Sections:
 - Hero (name/role/location/summary/socials)
@@ -39,7 +39,7 @@ Edit `src/data/profile.js`. Sections:
 
 ---
 
-## 🌐 Deploy
+## Deploy
 
 **Netlify / Vercel**  
 - Build command: `npm run build`  
@@ -53,7 +53,7 @@ Edit `src/data/profile.js`. Sections:
 
 ---
 
-## 📁 Structure
+## Structure
 
 ```
 src/
@@ -66,7 +66,7 @@ src/
 
 ---
 
-## 🔧 Notes
+## Notes
 
 - This variant is pinned to **Vite 4** for Node 16 compatibility. If you upgrade to **Node 18+**, you can bump to Vite 5 safely.
 - SPA routing fallback for Netlify can be done with `_redirects` → `/* /index.html 200` (put it under `/public` or copy to `dist` on build).
