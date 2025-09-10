@@ -1,4 +1,4 @@
-# Vue Resume Site
+# Davinderjit's Portfolio
 
 A clean, single‑page resume built with **Vue 3 + Vite** (Node 16‑compatible setup).
 
